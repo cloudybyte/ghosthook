@@ -1,0 +1,310 @@
+{
+  "properties": {
+    "post": {
+      "properties": {
+        "current": {
+          "properties": {
+            "authors": {
+              "elements": {
+                "properties": {
+                  "accessibility": {
+                    "type": "string"
+                  },
+                  "created_at": {
+                    "type": "timestamp"
+                  },
+                  "email": {
+                    "type": "string"
+                  },
+                  "id": {
+                    "type": "string"
+                  },
+                  "last_seen": {
+                    "type": "timestamp"
+                  },
+                  "name": {
+                    "type": "string"
+                  },
+                  "roles": {
+                    "elements": {
+                      "properties": {
+                        "created_at": {
+                          "type": "timestamp"
+                        },
+                        "description": {
+                          "type": "string"
+                        },
+                        "id": {
+                          "type": "string"
+                        },
+                        "name": {
+                          "type": "string"
+                        },
+                        "updated_at": {
+                          "type": "timestamp"
+                        }
+                      }
+                    }
+                  },
+                  "slug": {
+                    "type": "string"
+                  },
+                  "status": {
+                    "type": "string"
+                  },
+                  "updated_at": {
+                    "type": "timestamp"
+                  },
+                  "url": {
+                    "type": "string"
+                  }
+                },
+                "optionalProperties": {
+                  "bio": {
+                    "type": "string"
+                  },
+                  "profile_image": {
+                    "type": "string"
+                  },
+                  "website": {
+                    "type": "string"
+                  },
+                  "tour": {
+                    "type": "string"
+                  },
+                  "twitter": {
+                    "type": "string"
+                  },
+                  "location": {
+                    "type": "string"
+                  },
+                  "meta_description": {
+                    "type": "string"
+                  },
+                  "meta_title": {
+                    "type": "string"
+                  },
+                  "cover_image": {
+                    "type": "string"
+                  },
+                  "facebook": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "comment_id": {
+              "type": "string"
+            },
+            "created_at": {
+              "type": "timestamp"
+            },
+            "email_recipient_filter": {
+              "type": "string"
+            },
+            "excerpt": {
+              "type": "string"
+            },
+            "featured": {
+              "type": "boolean"
+            },
+            "html": {
+              "type": "string"
+            },
+            "id": {
+              "type": "string"
+            },
+            "mobiledoc": {
+              "type": "string"
+            },
+            "plaintext": {
+              "type": "string"
+            },
+            "primary_author": {
+              "properties": {
+                "accessibility": {
+                  "type": "string"
+                },
+                "created_at": {
+                  "type": "timestamp"
+                },
+                "email": {
+                  "type": "string"
+                },
+                "id": {
+                  "type": "string"
+                },
+                "last_seen": {
+                  "type": "timestamp"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "roles": {
+                  "elements": {
+                    "properties": {
+                      "created_at": {
+                        "type": "timestamp"
+                      },
+                      "description": {
+                        "type": "string"
+                      },
+                      "id": {
+                        "type": "string"
+                      },
+                      "name": {
+                        "type": "string"
+                      },
+                      "updated_at": {
+                        "type": "timestamp"
+                      }
+                    }
+                  }
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "status": {
+                  "type": "string"
+                },
+                "updated_at": {
+                  "type": "timestamp"
+                },
+                "url": {
+                  "type": "string"
+                }
+              },
+              "optionalProperties": {
+                "bio": {
+                  "type": "string"
+                },
+                "profile_image": {
+                  "type": "string"
+                },
+                "website": {
+                  "type": "string"
+                },
+                "tour": {
+                  "type": "string"
+                },
+                "twitter": {
+                  "type": "string"
+                },
+                "location": {
+                  "type": "string"
+                },
+                "meta_description": {
+                  "type": "string"
+                },
+                "meta_title": {
+                  "type": "string"
+                },
+                "cover_image": {
+                  "type": "string"
+                },
+                "facebook": {
+                  "type": "string"
+                }
+              }
+            },
+            "published_at": {
+              "type": "timestamp"
+            },
+            "reading_time": {
+              "type": "uint8"
+            },
+            "slug": {
+              "type": "string"
+            },
+            "status": {
+              "type": "string"
+            },
+            "tags": {
+              "elements": {
+                "type": "string"
+              }
+            },
+            "title": {
+              "type": "string"
+            },
+            "updated_at": {
+              "type": "timestamp"
+            },
+            "url": {
+              "type": "string"
+            },
+            "uuid": {
+              "type": "string"
+            },
+            "visibility": {
+              "type": "string"
+            }
+          },
+          "optionalProperties": {
+            "twitter_description": {
+              "type": "string"
+            },
+            "twitter_image": {
+              "type": "string"
+            },
+            "twitter_title": {
+              "type": "string"
+            },
+            "primary_tag": {
+              "type": "string"
+            },
+            "og_description": {
+              "type": "string"
+            },
+            "og_image": {
+              "type": "string"
+            },
+            "og_title": {
+              "type": "string"
+            },
+            "canonical_url": {
+              "type": "string"
+            },
+            "codeinjection_foot": {
+              "type": "string"
+            },
+            "codeinjection_head": {
+              "type": "string"
+            },
+            "custom_excerpt": {
+              "type": "string"
+            },
+            "custom_template": {
+              "type": "string"
+            },
+            "email_subject": {
+              "type": "string"
+            },
+            "feature_image": {
+              "type": "string"
+            },
+            "frontmatter": {
+              "type": "string"
+            },
+            "meta_description": {
+              "type": "string"
+            },
+            "meta_title": {
+              "type": "string"
+            }
+          }
+        },
+        "previous": {
+          "properties": {
+            "status": {
+              "type": "string"
+            },
+            "updated_at": {
+              "type": "timestamp"
+            }
+          }
+        }
+      }
+    }
+  }
+}

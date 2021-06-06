@@ -1,0 +1,17 @@
+[package]
+name = "ghosthook"
+version = "0.1.0"
+authors = ["cloudybyte <hi@cloudybyte.net>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-web = "3.3"
+toml = "0.5.8"
+serde = { version = "1", features = ["derive"] }
+uuid = { version = "0.8", features = ["serde"] }
+chrono = { version = "0.4", features = ["serde"] }
+serenity = { version = "0.10.7", default-features = false, features = ["default_tokio_0_2"] }
+tokio = { version = "1.6", features = ["rt-multi-thread"] }
+actix-rt = "2.2"
