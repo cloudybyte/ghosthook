@@ -1,5 +1,10 @@
 # ghosthook
 
+## Attention
+
+This project is no longer actively maintained because the blog which caused the whole project went down.
+PRs are still accepted but there is no reason to actively work on this.
+
 ## What is ghosthook?
 I created ghosthook to serve as an adapter between the Ghost blogging platform and various other platforms (first and foremost Discord). <br>
 Feel free to open a issue or PR to add support for more.
